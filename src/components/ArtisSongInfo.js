@@ -26,7 +26,7 @@ export default class ArtistSongInfo extends Component {
       .then(
         (data) => {
           const { result } = data;
-          const station = result.find((r) => r.prefix === "lofi");
+          const station = result.find((r) => r.prefix === "rr");
           const { artist, song } = station;
           this.setState({
             isLoaded: true,
