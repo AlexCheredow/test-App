@@ -3,7 +3,7 @@ const CurrentlyPlaying = () => {
     <audio
       autoPlay="autoplay"
       controls="controls"
-      src="https://air2.radiorecord.ru:9002/rr_128"
+      src="https:\/\/air2.radiorecord.ru:9002\/rr_128"
     />
   );
 };
